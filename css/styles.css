@@ -1,0 +1,31 @@
+body {
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+  font-size: 10vw;
+  text-shadow: 0 0 20px #111;
+}
+
+.hi {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+}
+
+.hi h1 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  font-size: 1em;
+}
+
+img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
