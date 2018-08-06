@@ -4,5 +4,6 @@ $.ajax({
   url: url,
   success: function(result) {
     $("#nasa").attr("src", result.url);
+    $("#test p").text(result.explanation);
   }
 });

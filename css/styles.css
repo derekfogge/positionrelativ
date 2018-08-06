@@ -1,8 +1,5 @@
 body {
   font-family: 'Poppins', serif;
-  font-weight: 700;
-  font-size: 10vw;
-  text-shadow: 0 0 20px #111;
 }
 
 .hi {
@@ -21,6 +18,9 @@ body {
   color: white;
   margin: 0;
   font-size: 1em;
+  font-weight: 700;
+  font-size: 10vw;
+  text-shadow: 0 0 20px #111;
 }
 
 img {
