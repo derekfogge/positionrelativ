@@ -4,11 +4,13 @@ function nasaBG() {
   $.ajax({
     url: url,
     success: function(result) {
-      image.css('background-image', 'url(' + result.url + ')');
+      image.css('background-image', 'url(' + result.hdurl + ')');
     }
   });
 }
 nasaBG();
+
+
 
 
 $(window).resize(function() {
