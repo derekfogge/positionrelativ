@@ -14,7 +14,7 @@ nasaBG();
 
 
 $(window).resize(function() {
-    $('.hi').height($(window).height() / 1);
-    $('.hi h1').css('padding-top', $(window).height() / 2.5);
+    $('.hi').height($(window).height() / 1 - 60);
+    $('.hi h1').css('padding-top', $(window).height() / 2.75);
 }).resize();
 
