@@ -4,7 +4,7 @@ function nasaBG() {
   $.ajax({
     url: url,
     success: function(result) {
-      image.css('background-image', 'url(' + result.hdurl + ')');
+      image.css('background-image', 'url(' + result.url + ')');
     }
   });
 }
